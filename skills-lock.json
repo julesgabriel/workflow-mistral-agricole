@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "authoring-skills": {
+      "source": "vercel/next.js",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/authoring-skills/SKILL.md",
+      "computedHash": "71151e63394f73d9573f616ae4072e8d57fbb82b82b40f907cdcbe93692ec114"
+    },
+    "mistral-cost-tuning": {
+      "source": "jeremylongshore/claude-code-plugins-plus-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/saas-packs/mistral-pack/skills/mistral-cost-tuning/SKILL.md",
+      "computedHash": "3d1f4a92e70b9bf295dc82c2a8249cc543f856c86974cba3f6dbadec59e9ed69"
+    }
+  }
+}
