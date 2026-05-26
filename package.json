@@ -1,0 +1,39 @@
+{
+  "name": "vineai-workflow",
+  "version": "1.0.0",
+  "description": "Vine AI: Phytosanitary Mapping Workflow via Mistral",
+  "main": "dist/worker.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/worker.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julesgabriel/workflow-mistral-agricole.git"
+  },
+  "keywords": ["mistral", "workflow", "vine", "phytosanitary", "mapping"],
+  "author": "Jules DAYAUX",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/julesgabriel/workflow-mistral-agricole/issues"
+  },
+  "homepage": "https://github.com/julesgabriel/workflow-mistral-agricole#readme",
+  "devDependencies": {
+    "@mistralai/workflows-sdk": "^0.1.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.9.1",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.11",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "plants": [
+    {
+      "plantId": "vine_001",
+      "disease": "Mildew",
+      "confidence": 0.95,
+      "coordinates": [43.61, 3.88],
+      "vector": [0.1, 0.2, 0.3, 0.4]
+    },
+    {
+      "plantId": "vine_002",
+      "disease": "Powdery Mildew",
+      "confidence": 0.85,
+      "coordinates": [43.62, 3.89],
+      "vector": [0.2, 0.3, 0.1, 0.5]
+    },
+    {
+      "plantId": "vine_003",
+      "disease": "Healthy",
+      "confidence": 0.99,
+      "coordinates": [43.63, 3.90],
+      "vector": [0.5, 0.5, 0.5, 0.5]
+    },
+    {
+      "plantId": "vine_invalid_001",
+      "disease": "Mildew",
+      "confidence": 0.7,
+      "coordinates": [200, 200],
+      "vector": [0.1, 0.1, 0.1]
+    }
+  ]
+}
